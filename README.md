@@ -11,18 +11,18 @@ Welcome to MySDK, a simple TypeScript SDK project to kickstart your development.
 
 1. **Clone the repository**
 
-\`\`\`bash
+```bash
 git clone <https://github.com/Gan-Xing/SDKTS.git>
 cd SDKTS
-\`\`\`
+```
 
 2. **Install the dependencies**
 
 Make sure you have Node.js (v18.0.0 or newer) and npm (v8.0.0 or newer) installed. This project recommends using pnpm for managing dependencies, although npm or yarn would work just fine.
 
-\`\`\`bash
+```bash
 pnpm install
-\`\`\`
+```
 
 ## Scripts
 
@@ -30,51 +30,51 @@ Here are some scripts provided to help you manage the project:
 
 - **Testing:** Run tests using Jest.
 
-\`\`\`bash
+```bash
 pnpm run test
-\`\`\`
+```
 
 - **Linting:** Check your code for stylistic and programming errors with ESLint.
 
-\`\`\`bash
+```bash
 pnpm run lint
-\`\`\`
+```
 
 - **Formatting:** Format your code with Prettier.
 
-\`\`\`bash
+```bash
 pnpm run format
-\`\`\`
+```
 
 - **Check Formatting:** Check if your code is well formatted.
 
-\`\`\`bash
+```bash
 pnpm run check-format
-\`\`\`
+```
 
 - **Cleaning:** Delete the \`dist\` directory to clean old build outputs.
 
-\`\`\`bash
+```bash
 pnpm run clean
-\`\`\`
+```
 
 - **Documentation:** Generate documentation for your code with TypeDoc.
 
-\`\`\`bash
+```bash
 pnpm run docs
-\`\`\`
+```
 
 - **Building:** Build your project with Vite.
 
-\`\`\`bash
+```bash
 pnpm run build
-\`\`\`
+```
 
 - **Committing Changes:** We use Commitizen for formatted commit messages.
 
-\`\`\`bash
+```bash
 pnpm run commit
-\`\`\`
+```
 
 This command will prompt you for details about the commit which will then be formatted according to conventional commit standards.
 

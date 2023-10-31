@@ -9,20 +9,20 @@
 
 ## 开始使用
 
-1. **克隆仓库**
+1.**克隆仓库**
 
-\`\`\`bash
+```bash
 git clone <https://github.com/Gan-Xing/SDKTS.git>
 cd SDKTS
-\`\`\`
+```
 
-2. **安装依赖**
+2.**安装依赖**
 
 确保您已安装 Node.js (v18.0.0 或更高版本) 和 npm (v8.0.0 或更高版本)。本项目推荐使用 pnpm 来管理依赖，尽管 npm 或 yarn 也能很好地完成这项工作。
 
-\`\`\`bash
+```bash
 pnpm install
-\`\`\`
+```
 
 ## 脚本
 
@@ -30,51 +30,51 @@ pnpm install
 
 - **测试:** 使用 Jest 运行测试。
 
-\`\`\`bash
+```bash
 pnpm run test
-\`\`\`
+```
 
 - **Linting:** 使用 ESLint 检查您的代码是否存在样式和编程错误。
 
-\`\`\`bash
+```bash
 pnpm run lint
-\`\`\`
+```
 
 - **格式化:** 使用 Prettier 格式化您的代码。
 
-\`\`\`bash
+```bash
 pnpm run format
-\`\`\`
+```
 
 - **检查格式:** 检查您的代码是否格式良好。
 
-\`\`\`bash
+```bash
 pnpm run check-format
-\`\`\`
+```
 
 - **清理:** 删除 \`dist\` 目录以清理旧的构建输出。
 
-\`\`\`bash
+```bash
 pnpm run clean
-\`\`\`
+```
 
 - **文档:** 使用 TypeDoc 为您的代码生成文档。
 
-\`\`\`bash
+```bash
 pnpm run docs
-\`\`\`
+```
 
 - **构建:** 使用 Vite 构建您的项目。
 
-\`\`\`bash
+```bash
 pnpm run build
-\`\`\`
+```
 
 - **提交更改:** 我们使用 Commitizen 生成格式化的提交消息。
 
-\`\`\`bash
+```bash
 pnpm run commit
-\`\`\`
+```
 
 此命令将提示您输入提交的详细信息，然后按照常规提交标准格式化。
 
