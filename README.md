@@ -1,11 +1,11 @@
-# MySDK
+# SDKTS
 
 ## Languages
 
 - [English](README.md)
 - [中文](README.zh.md)
 
-Welcome to MySDK, a simple TypeScript SDK project to kickstart your development. This project comes with a well-structured setup, including testing, linting, formatting, documentation generation, and more.
+Welcome to SDKTS, a simple TypeScript SDK project to kickstart your development. This project comes with a well-structured setup, including testing, linting, formatting, documentation generation, and more.
 
 ## Getting Started
 
