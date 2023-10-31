@@ -9,14 +9,14 @@ Welcome to SDKTS, a simple TypeScript SDK project to kickstart your development.
 
 ## Getting Started
 
-1. **Clone the repository**
+1.**Clone the repository**
 
 ```bash
 git clone <https://github.com/Gan-Xing/SDKTS.git>
 cd SDKTS
 ```
 
-2. **Install the dependencies**
+2.**Install the dependencies**
 
 Make sure you have Node.js (v18.0.0 or newer) and npm (v8.0.0 or newer) installed. This project recommends using pnpm for managing dependencies, although npm or yarn would work just fine.
 
