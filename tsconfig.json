@@ -5,12 +5,17 @@
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
     "declaration": true,
+    "declarationDir": "./types",
     "moduleResolution": "node",
     "sourceMap": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
   "include": ["src/**/*.ts"],
   "exclude": ["dist"]
