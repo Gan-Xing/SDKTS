@@ -3,7 +3,7 @@ name: Sync to GitLab
 on:
   push:
     branches:
-      - main
+      - main # 仅在 main 分支上触发
 
 jobs:
   sync:
@@ -12,8 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
-          fetch-depth: 0
+          ref: main # 检出 main 分支的代码
+          persist-credentials: false # 不保留认证令牌
+          fetch-depth: 0 # 获取所有历史
 
       - name: Configure Git
         run: |
