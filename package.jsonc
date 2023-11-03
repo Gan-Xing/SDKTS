@@ -1,5 +1,5 @@
 {
-  "name": "mysdk", // 项目名称
+  "name": "cesiumsdk", // 项目名称
   "version": "1.0.0", // 项目版本号
   "description": "A Simple SDK", // 项目简介
   "main": "dist/index.js", // 项目的主入口文件
