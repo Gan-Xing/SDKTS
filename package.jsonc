@@ -1,7 +1,7 @@
 {
   "name": "ganxing", // 项目名称
-  "version": "1.0.0", // 项目版本号
-  "description": "A Simple SDK", // 项目简介
+  "version": "0.0.0", // 项目版本号
+  "description": "A comprehensive collection of personal programming utilities and components by Gan-Xing.", // 项目简介
   "main": "dist/index.js", // 项目的主入口文件
   "types": "dist/index.d.ts", // TypeScript 类型声明的入口文件
   "scripts": {
@@ -15,7 +15,10 @@
     "prebuild": "pnpm run lint && pnpm run check-format && pnpm run test && pnpm run clean && pnpm run docs", // 在构建之前执行一系列的准备任务
     "build": "pnpm run prebuild && vite build" // 执行 prebuild 脚本，然后运行 Vite 构建项目
   },
-  "keywords": ["sdk", "typescript"], // 项目关键字
+  "keywords": [    
+    "ganxing",
+    "typescript"
+  ], // 项目关键字
   "author": {
     "name": "Gan-Xing", // 作者名称
     "email": "599153574@qq.com", // 作者邮箱
