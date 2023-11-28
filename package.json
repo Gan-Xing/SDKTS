@@ -1,7 +1,7 @@
 {
-  "name": "mysdk",
-  "version": "1.0.0",
-  "description": "A Simple SDK",
+  "name": "ganxing",
+  "version": "0.0.0",
+  "description": "A comprehensive collection of personal programming utilities and components by Gan-Xing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -16,8 +16,9 @@
     "build": "pnpm run prebuild && vite build"
   },
   "keywords": [
-    "sdk",
-    "typescript"
+    "ganxing",
+    "typescript",
+    "sdk"
   ],
   "author": {
     "name": "Gan-Xing",
@@ -26,13 +27,13 @@
   },
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/Gan-Xing/SDKTS.git"
+  "type": "git",
+  "url": "https://github.com/Gan-Xing/ganxing.git"
   },
   "bugs": {
-    "url": "https://github.com/Gan-Xing/SDKTS/issues"
+    "url": "https://github.com/Gan-Xing/ganxing/issues"
   },
-  "homepage": "https://github.com/Gan-Xing/SDKTS#readme",
+  "homepage": "https://github.com/Gan-Xing/ganxing#readme",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"

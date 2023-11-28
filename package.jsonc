@@ -1,5 +1,5 @@
 {
-  "name": "mysdk", // 项目名称
+  "name": "ganxing", // 项目名称
   "version": "1.0.0", // 项目版本号
   "description": "A Simple SDK", // 项目简介
   "main": "dist/index.js", // 项目的主入口文件
@@ -24,12 +24,12 @@
   "license": "MIT", // 项目许可证
   "repository": {
     "type": "git", // 版本控制系统类型
-    "url": "https://github.com/Gan-Xing/SDKTS.git" // 项目仓库地址
+    "url": "https://github.com/Gan-Xing/ganxing.git" // 项目仓库地址
   },
   "bugs": {
-    "url": "https://github.com/Gan-Xing/SDKTS/issues" // 项目问题追踪地址
+    "url": "https://github.com/Gan-Xing/ganxing/issues" // 项目问题追踪地址
   },
-  "homepage": "https://github.com/Gan-Xing/SDKTS#readme", // 项目主页地址
+  "homepage": "https://github.com/Gan-Xing/ganxing#readme", // 项目主页地址
   "engines": {
     "node": ">=18.0.0", // 支持的 Node.js 版本
     "npm": ">=8.0.0" // 支持的 npm 版本

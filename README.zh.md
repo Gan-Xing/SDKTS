@@ -1,19 +1,19 @@
-# SDKTS
+# ganxing
 
 ## 语言
 
 - [English](README.md)
 - [中文](README.zh.md)
 
-欢迎来到 SDKTS，一个简单的 TypeScript SDK 项目，旨在快速启动您的开发过程。该项目附带了一个结构良好的设置，包括测试、代码检查、格式化、文档生成等。
+欢迎来到 ganxing，这是一个全面的个人编程工具和组件集合。该项目设计用于支持各种开发需求，包含了从测试、代码检查到格式化和文档生成的多种工具。这个 SDK 旨在为您的项目提供坚实的基础设施，同时也是我个人编程实践的积累，希望它能对您的开发工作带来便利。
 
 ## 开始使用
 
 1.**克隆仓库**
 
 ```bash
-git clone <https://github.com/Gan-Xing/SDKTS.git>
-cd SDKTS
+git clone <https://github.com/Gan-Xing/ganxing.git>
+cd ganxing
 ```
 
 2.**安装依赖**
@@ -88,7 +88,7 @@ pnpm run commit
 
 ## 问题和反馈
 
-对于错误报告、功能请求或任何其他反馈，请访问 [GitHub Issues](https://github.com/Gan-Xing/SDKTS/issues)。
+对于错误报告、功能请求或任何其他反馈，请访问 [GitHub Issues](https://github.com/Gan-Xing/ganxing/issues)。
 
 ## 许可
 
@@ -96,4 +96,4 @@ pnpm run commit
 
 ---
 
-感谢您查看 MySDK。编程愉快！
+感谢您查看 ganxing。编程愉快！
